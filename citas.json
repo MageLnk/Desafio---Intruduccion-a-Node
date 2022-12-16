@@ -1,1 +1,4 @@
-[]
+[
+  { "nombre": "Rocky", "edad": "2 años", "animal": "Perro", "color": "Negro", "enfermedad": "Vomito constante" },
+  { "nombre": "Wanda", "edad": "5 años", "animal": "Gata", "color": "Blanca", "enfermedad": "Vomito blanco" }
+]
