@@ -1,24 +1,22 @@
-const { createFile, readFile, validatingYesOrNo } = require("./operaciones");
-const { preguntas } = require("./preguntas");
 require("colors");
-
-//createFile("Wanda", "5 años", "Gata", "Blanca", "Vomito blanco");
-
-//console.log(readFile());
+const { deployMenu, pause, createFile, readFile } = require("./operaciones");
 
 console.clear();
-console.log("Bienvenido a la veterinaria GuauGuau.".red);
+console.log("===========================================".green);
+console.log("   Bienvenido a la veterinaria GuauGuau.".red);
+console.log("===========================================\n".green);
 
-const app = () => {
-  console.log("Ola k ase");
+const app = async () => {
+  let optionSelected = "";
+  do {
+    optionSelected = await deployMenu();
+    if (optionSelected === "1") {
+      await createFile();
+      console.log("¡Mascota ingresada con éxito!".red);
+    }
+    if (optionSelected === "2") console.log(readFile());
+    if (optionSelected !== "0") await pause();
+  } while (optionSelected !== "0");
 };
 
 app();
-
-/*
-process.stdin.on("data", (data) => {
-  console.log("data", data.toString().trim());
-  process.exit();
-});
-
-*/

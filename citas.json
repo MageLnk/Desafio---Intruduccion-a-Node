@@ -1,4 +1,1 @@
-[
-  { "nombre": "Rocky", "edad": "2 años", "animal": "Perro", "color": "Negro", "enfermedad": "Vomito constante" },
-  { "nombre": "Wanda", "edad": "5 años", "animal": "Gata", "color": "Blanca", "enfermedad": "Vomito blanco" }
-]
+[{"nombre":"Rocky","edad":"2 años","animal":"Perro","color":"Negro","enfermedad":"Vomito constante"},{"nombre":"Wanda","edad":"5 años","animal":"Gata","color":"Blanca","enfermedad":"Vomito blanco"},{"nombre":"Duqueza","edad":"7","animal":"Gato","color":"Blanco","enfermedad":"Mareos"},{"nombre":"Lupita","edad":"13","animal":"Caballo","color":"Negro","enfermedad":"No sé"}]
